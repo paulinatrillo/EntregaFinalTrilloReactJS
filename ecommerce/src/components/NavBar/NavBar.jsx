@@ -10,7 +10,6 @@ const NavBar = () => {
         <button> Juegos de comedor </button>
         </div>
         <CartWidget/>
-        <ItemListContainer/>
        </nav> 
     )
 }
