@@ -1,0 +1,27 @@
+.Counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .Controls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 1rem;
+  }
+  
+  .Button {
+    background-color: rgb(245, 214, 210);
+    color: #090101;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .Number {
+    font-size: 16px;
+  }
