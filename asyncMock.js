@@ -24,3 +24,11 @@ export const getProducts = () => {
     
     }
 )}
+
+export const getProductByIdn = (productId) => {
+    return new Promise ((resolve) => {
+        setTimeout(() => {
+            resolve(products.find(prod = prod.id === productId))
+        }, 400)
+    })
+}
