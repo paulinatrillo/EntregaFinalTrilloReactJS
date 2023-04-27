@@ -21,9 +21,6 @@ function App() {
       </Routes>
       </BrowserRouter>
         
-      <ItemListContainer greeting = {'¡Bienvenido/a!'} />
-      <ItemCount initial={1} stock={15} onAdd={(quantity) => console.log('Cantidad agregada', quantity)}/>
-      <ItemDetailContainer/>
         
     </div>
   );

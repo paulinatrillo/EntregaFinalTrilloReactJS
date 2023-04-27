@@ -1,4 +1,4 @@
-nav {
+.NavBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,14 +8,24 @@ nav {
   }
   
   .titulo{
-    font-size: 30px;
+    font-size: 25px;
+    color: salmon;
+    margin: 20px;
   }
-  button {
+  
+  .Option,.ActiveOption {
     background-color: #eeeeee;
     border: none;
     border-radius: 5px;
     padding: 0.5rem 1rem;
     cursor: pointer;
+    margin: 8px;
+    color: black;
+    
+  }
+  .Option:hover,.ActiveOption:hover {
+    border: 1px solid salmon;
+    color: salmon;
   }
   
   .CartWidget {
