@@ -1,4 +1,3 @@
-
 const products = [
     {
         id: '1',
@@ -47,3 +46,13 @@ export const getProductById = (productId) => {
         }, 400)
     })
 }
+
+export const getProductsByCategory = (category) => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            const filteredProducts = products.filter(prod => prod.category === category)
+            resolve(filteredProducts)
+        }, 400)
+    })
+}
+
