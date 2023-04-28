@@ -30,7 +30,7 @@ const products = [
     {
         id: '4',
         name: 'Mesas de luz americanas:',
-        price: 850000,
+        price: 8500,
         category: 'MesasDeLuz',
         img:'src/assets/img/mesitasazul.jpeg',
         stock: 10,
