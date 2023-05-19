@@ -4,6 +4,7 @@ const CartItem = ({ id, name, price, quantity }) => {
   return (
     <div>
       <h4>{name}</h4>
+      <p>Id: {id}</p>
       <p>Price: ${price}</p>
       <p>Quantity: {quantity}</p>
     </div>
