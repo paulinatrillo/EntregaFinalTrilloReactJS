@@ -11,9 +11,9 @@ import { CartProvider } from './components/Context/CartContext';
 
 function App() {
   return (
+    <div className="App">
     <BrowserRouter>
       <CartProvider>
-        <div className="App">
           <NavBar />
           <Routes>
             <Route path="/" element={<ItemListContainer />} />
@@ -23,9 +23,9 @@ function App() {
             <Route path="*" element={<h1>404 NOT FOUND</h1>} />
           </Routes>
           <CartWidget />
-        </div>
       </CartProvider>
     </BrowserRouter>
+    </div>
   );
 }
 
