@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const CartItem = ({ id, name, price, quantity }) => {
   return (
     <div>
