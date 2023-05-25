@@ -1,0 +1,17 @@
+.ItemDetailContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  .ItemDetailContainer .item {
+    width: calc(33.33% - 10px);
+    margin:5px;
+    box-sizing: border-box;
+    text-align: center;
+    border: none;
+  }
+
+  
+

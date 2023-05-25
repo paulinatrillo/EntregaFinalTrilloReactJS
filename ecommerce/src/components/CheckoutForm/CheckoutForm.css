@@ -1,0 +1,20 @@
+.Label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .Input {
+    width: 300px;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .Container {
+    margin-left: 10px; 
+    margin-right: 10px; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+  }
+
+ 

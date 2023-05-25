@@ -20,7 +20,7 @@
     padding: 0.5rem 1rem;
     cursor: pointer;
     margin: 8px;
-    color: black;
+    color: #000000;
     
   }
   .Option:hover,.ActiveOption:hover {

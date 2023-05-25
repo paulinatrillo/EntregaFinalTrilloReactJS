@@ -1,9 +1,23 @@
 .ItemImg{
  width: 200px;
+ height: 200px;
 
 }
 
 .Info{
     color: salmon;
     font-size: 17px;
+}
+
+.CardItem{
+        display: inline-block;
+        width: 33.33%;
+        box-sizing: border-box;
+        text-align: center;
+        border: 1px;
+        margin-bottom: 15px;
+}
+
+.Option{
+    color: black;
 }
