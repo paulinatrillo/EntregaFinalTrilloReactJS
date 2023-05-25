@@ -6,8 +6,8 @@ const CartItem = ({ id, name, price, quantity }) => {
     <div>
       <h4>{name}</h4>
       <p>Id: {id}</p>
-      <p>Price: ${price}</p>
-      <p>Quantity: {quantity}</p>
+      <p>Precio: ${price}</p>
+      <p>Cantidad: {quantity}</p>
     </div>
   );
 };

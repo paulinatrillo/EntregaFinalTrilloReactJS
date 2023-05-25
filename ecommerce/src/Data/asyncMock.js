@@ -1,4 +1,4 @@
-const products = [
+const Products = [
     {
         id: '1',
         name: 'Cómoda americana:',
@@ -114,7 +114,7 @@ export const getProducts = () => {
     return new Promise ((resolve) => {
         setTimeout (() =>{
             setTimeout(() => {
-                resolve(products)
+                resolve(Products)
             },400)
         })
     })
@@ -123,7 +123,7 @@ export const getProducts = () => {
 export const getProductById = (productId) => {
     return new Promise ((resolve) => {
         setTimeout(() => {
-            resolve(products.find(prod => prod.id === productId))
+            resolve(Products.find(prod => prod.id === productId))
         }, 400)
     })
 }
@@ -131,7 +131,7 @@ export const getProductById = (productId) => {
 export const getProductsByCategory = (category) => {
     return new Promise((resolve) => {
         setTimeout(() => {
-            const filteredProducts = products.filter(prod => prod.category === category)
+            const filteredProducts = Products.filter(prod => prod.category === category)
             resolve(filteredProducts)
         }, 400)
     })
